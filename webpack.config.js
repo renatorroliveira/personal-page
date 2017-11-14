@@ -3,7 +3,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    main: ['./index.html', './index.js'],
+    main: ['./index.html', './src/index.jsx'],
   },
 
   output: {
@@ -23,9 +23,9 @@ module.exports = {
   },
 
   resolve: {
-    extensions: ['*', '.js', '.json', '.scss', '.css'],
+    extensions: ['*', '.js', '.jsx', '.json', '.scss', '.css'],
     alias: {
-      '@': path.resolve(__dirname),
+      '@': path.resolve(__dirname, 'src'),
     },
   },
 
@@ -40,7 +40,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         loaders: ['babel-loader', 'eslint-loader'],
       }, {

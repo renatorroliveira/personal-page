@@ -1,0 +1,106 @@
+
+html, body, #main-container {
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+#main-container, main {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+main {
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.block {
+  min-height: 100%;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+img.left, img.right {
+  margin: 20px;
+}
+
+.material-icons {
+  vertical-align: middle;
+  &.huge {
+    font-size: 4rem;
+  }
+}
+
+.card-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+}
+
+.top-parallax {
+  background-image: url(../assets/parallax.jpg);
+  background-position: center;
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.main-container {
+  min-height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+  height: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: stretch;
+}
+
+.social-link {
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  margin: 20px;
+  padding: 1px;
+  cursor: pointer;
+  & > * {
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    &.facebook {
+      background-image: url(../assets/facebook.png);
+    }
+    &.github {
+      background-image: url(../assets/github.png);
+    }
+    &.linkedin {
+      background-image: url(../assets/linkedin.png);
+    }
+    &.stackoverflow {
+      background-image: url(../assets/stackoverflow.png);
+    }
+    &.twitter {
+      background-image: url(../assets/twitter.png);
+    }
+  }
+}
