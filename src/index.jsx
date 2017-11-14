@@ -1,5 +1,5 @@
 
-import 'material-design-icons/iconfont/material-icons.css';
+import 'material-design-icons-iconfont-only/iconfont/material-icons.css';
 import 'materialize-css/dist/css/materialize.css';
 
 import React from 'react';
