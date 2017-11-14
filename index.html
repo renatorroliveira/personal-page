@@ -7,107 +7,228 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
   <body>
-    <script type="text/javascript" src="main-bundle.js" charset="utf-8"></script>
+    <div id="main-container"></div>
 
-    <nav class="grey darken-4 hide-on-med-and-down">
-      <div class="nav-wrapper container">
-        <a href="#welcome" class="brand-logo">Renato Oliveira</a>
-        <ul id="nav-mobile" class="right">
-          <li><a href="#about">About me</a></li>
-          <li><a href="#work">Work experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#hobbies">Hobbies</a></li>
-        </ul>
-      </div>
-    </nav>
+    <div style="display: none;">
+    <div id="projects" class="block section scrollspy cyan darken-4 white-text">
+      <h3 class="center">
+        <i class="material-icons" style="font-size: 4rem">&#xE871;</i><br />
+        Projects
+      </h3>
+      <div class="row container section">
 
-    <div class="main-container">
-      <div id="welcome" class="scrollspy">
-        <h5>Welcome! I am Renato Oliveira and my main roles are</h5>
-        <h1>full stack development &amp; tech leading</h1>
-        <div>
-          <a class="social-link tooltipped" href="https://github.com/renatorroliveira" target="_blank" data-tooltip="GitHub Profile">
-            <i class="github waves-effect waves-light"></i>
-          </a>
-          <a class="social-link tooltipped" href="https://www.linkedin.com/in/renato-resende-ribeiro-de-oliveira-63247046/" target="_blank" data-tooltip="Linkedin Profile">
-            <i class="linkedin waves-effect waves-light"></i>
-          </a>
-          <a class="social-link tooltipped" href="https://twitter.com/renatorroufla" target="_blank" data-tooltip="Twitter Profile">
-            <i class="twitter waves-effect waves-light"></i>
-          </a>
-          <a class="social-link tooltipped" href="https://stackoverflow.com/users/2607753/renato-oliveira" target="_blank" data-tooltip="Stack Overflow Profile">
-            <i class="stackoverflow waves-effect waves-light"></i>
-          </a>
-          <a class="social-link tooltipped" href="https://www.facebook.com/renatorro" target="_blank" data-tooltip="Facebook Profile">
-            <i class="facebook waves-effect waves-light"></i>
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div id="about" class="block section scrollspy red white-text">
-      <h2 class="center">About me</h2>
-    </div>
-
-    <div id="work" class="block section scrollspy purple white-text">
-      <h2 class="center">Work experience</h2>
-    </div>
-
-    <div id="education" class="block section scrollspy green white-text">
-      <h2 class="center">Education</h2>
-    </div>
-
-    <div id="skills" class="block section scrollspy orange white-text">
-      <h2 class="center">Skills</h2>
-    </div>
-
-    <div id="hobbies" class="block section scrollspy indigo white-text">
-      <h2 class="center">Hobbies</h2>
-    </div>
-
-    <footer class="page-footer black">
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
-            <h5>Contact</h5>
-            <p>
-              <i class="material-icons">&#xE0C8;</i>Concórdia, SC - Brazil - 89710-153
-            </p>
-            <p>
-              <i class="material-icons">&#xE0E1;</i> renatorro[a]comp.ufla.br
-            </p>
-            <p>
-              <i class="material-icons">&#xE324;</i> +55 49 99150 9631
-            </p>
-          </div>
-          <div class="col l6 s12 center-align">
-            <h5>Social</h5>
-            <div>
-              <a class="social-link tooltipped" href="https://github.com/renatorroliveira" target="_blank" data-tooltip="GitHub Profile">
-                <i class="github waves-effect waves-light"></i>
-              </a>
-              <a class="social-link tooltipped" href="https://www.linkedin.com/in/renato-resende-ribeiro-de-oliveira-63247046/" target="_blank" data-tooltip="Linkedin Profile">
-                <i class="linkedin waves-effect waves-light"></i>
-              </a>
-              <a class="social-link tooltipped" href="https://twitter.com/renatorroufla" target="_blank" data-tooltip="Twitter Profile">
-                <i class="twitter waves-effect waves-light"></i>
-              </a>
-              <a class="social-link tooltipped" href="https://stackoverflow.com/users/2607753/renato-oliveira" target="_blank" data-tooltip="Stack Overflow Profile">
-                <i class="stackoverflow waves-effect waves-light"></i>
-              </a>
-              <a class="social-link tooltipped" href="https://www.facebook.com/renatorro" target="_blank" data-tooltip="Facebook Profile">
-                <i class="facebook waves-effect waves-light"></i>
-              </a>
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">ForPDI</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+                Multi tenant, open source web platform to facilitate the strategic and
+                institutional planning of the Brazilian Federal Universities, using MySQL,
+                Java EE (VRaptor framework) backend with JPA/Hibernate ORM and React (flux) frontend with Webpack bundling.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/forpdi/forpdi" target="_blank">Repository</a>
+              <a href="http://forpdi.org" target="_blank">Homepage</a>
+              <a href="http://app.forpdi.org" target="_blank">Application</a>
             </div>
           </div>
         </div>
-      </div>
-      <div class="footer-copyright">
-        <div class="container center-align">
-        © 2017 - Renato R. R. de Oliveira
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">AlGod</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+                Under development open source web platform for programming teaching and learning.
+                It features automatic code evaluation and online tests monitoring.
+                Originally developed with PHP and jQuery, a version 2 is in current
+                development with Java EE and Vue.js framework, bundling the view with Webpack.
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
         </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">Uainov</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">PrêmioIdeia</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">Vetec</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">Zootec</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">ilevus</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">CIUFLASIG</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col l4 m6 s12">
+          <div class="card">
+            <div class="card-image">
+              <img src="img/defesa2.jpg" class="materialboxed" data-caption="ForPDI, web platform for strategic planning." />
+              <span class="card-title">SIGEPIC</span>
+            </div>
+            <div class="card-content black-text">
+              <p>
+
+              </p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/renatorroliveira/algod" target="_blank">Repository</a>
+            </div>
+          </div>
+        </div>
+
       </div>
-    </footer>
+    </div>
+
+    <div id="work" class="block section scrollspy purple darken-4  white-text">
+      <h2 class="center">Work experience</h2>
+      <blockquote class="container flow-text">
+        Professor, Instituto Federal Catarinense  - Aug/2016  - present - Concórdia, SC, Brazil
+Teaching and training on full stack web and mobile development in technology courses, including HTML5, CSS3, advanced Javascript (ES6), backend in Java, JavaScript (Node.js) and PHP, MySQL database, Cordova and native Android mobile development.
+Led research and technology projects on web platforms development, such as:
+Algorithm God (AlGod): Open source web platform for programming teaching and learning. It features automatic code evaluation and online tests monitoring. Originally developed with PHP and jQuery, a version 2 is in current development with Java EE and Vue.js framework, bundling the view with Webpack.
+Internal institute management systems available at informatics course’s GitHub page. Development using Java EE platform, JPA/Hibernate and JSP based views using jQuery and frameworks like Bootstrap and Materialize.
+Zootec: Platform to manager the zootechny department. Animals birth and ration production management.
+Vetec: Platform to manage the veterinary clinic. Consultations scheduling and registration of surgeries’ information.
+
+CTO, ProGolden Technology Solutions - Aug/2013 - Jul/2016 - Lavras, MG, Brazil
+CTO and co-founder of this IT startup.
+Management of the entire IT sector, including leading development teams, platform’s architecture development, contact with stakeholder for requirements analysis, administration of company’s servers (all Linux) and IT structure, strategic planning, DBA and full stack development.
+Worked with agile development methodologies, mainly SCRUM.
+Led the development of many software projects:
+PrêmioIdeia: Multi tenant, private code web platform for innovation management and crowd sourcing. Developed using MySQL database, Java EE backend with JPA/Hibernate ORM, ExtJS frontend and Maven build. Coordinated JMeter based load tests and configured a 10 machines cluster using Wildfly application server and Apache’s HTTPD mod_cluster for load balancing.
+Uainov: Multi tenant, private code web platform to manage companies’ employees suggestions and feedback. Developed using MySQL database, Java EE backend with JPA/Hibernate ORM, React frontend, Webpack bundling.
+ForPDI: Multi tenant, open source web platform to facilitate the strategic and institutional planning of the Brazilian Federal Universities, using MySQL, Java EE backend with JPA/Hibernate ORM and React frontend with Webpack bundling.
+
+Freelancer Developer  - Mar/2012  - Jul/2016 - Lavras, MG, Brazil
+Worked in web platforms projects as a freelancer developer.
+Worked with Java EE, Node.js, C#/.NET Platform, PHP, Angular 1, MySQL and MongoDB, some projects worked on (some of them aren’t online anymore):
+Ilevus: Coaching community. Developed with MongoDB, C# backend and React frontend with Webpack bundling. Architected the software from the scratch.
+
+Software Engineer, SYDLE - Aug/2011  - Feb/2012 - Belo Horizonte, MG, Brazil
+Worked as part of a SCRUM development team working as a full stack developer on the company’s BPMS: Sydle BPM
+Worked with Java EE, Oracle, PL/SQL and ExtJS frontend.
+
+Software Developer, Universidade Federal de Lavras  - Jul/2009 - Jul/2011 - Lavras, MG, Brazil
+Worked as a full stack web developer in two platforms of the university:
+CIUFLASIG: A web platform to manage the scientific initiation congress of the university. Manage subscriptions, scientific texts submissions, certificates and congress annals publication.
+SIGEPIC: and a management platform for the institutional scientific scholarship programs. Manage project proposals submissions, projects evaluations, ranking projects, execution reports submissions and certificates.
+Worked with PHP, jQuery and MySQL on both projects.
+      </blockquote>
+    </div>
+
+    <div id="skills" class="block section scrollspy orange darken-4 white-text">
+      <h2 class="center">Skills</h2>
+      <blockquote class="container flow-text">
+        Java SE/EE, Advanced JavaScript ES5/ES6, PHP (web),  C# (web), Python (desktop), C++ (desktop), Hibernate/JPA ORM, PHP Slim, Doctrine ORM, Express, Mongoose, ExtJS, React, Flux, Redux, Vue, Backbone, jQuery, Cordova, Webpack, Android SDK, SCRUM, MySQL, Oracle, MongoDB, HTML5, CSS3, Sass, NPM, Git, Maven, Jenkins, Composer, Bower, LaTeX, Bash, Linux, Tomcat, Wildfly/JBoss EAP, Apache, NGINX.
+      </blockquote>
+    </div>
+
+    <div id="hobbies" class="block section scrollspy blue darken-4  white-text">
+      <h2 class="center">Hobbies</h2>
+    </div>
+  </div>
+
+    <script type="text/javascript" src="main-bundle.js" charset="utf-8"></script>
   </body>
 </html>
