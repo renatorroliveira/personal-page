@@ -8,7 +8,7 @@ export default () => (
     </h3>
 
     <div className="row container section">
-      <div className="col m6 s12">
+      <div className="col l6 s12">
         <h5>
           <small className="grey-text text-lighten-3">2014</small><br />
           M.Sc. in Computer Science: <i>Computer Networks area</i>
@@ -30,7 +30,7 @@ export default () => (
           </a>.
         </p>
       </div>
-      <div className="col m6 s12">
+      <div className="col l6 s12">
         <div className="card-panel black-text">
           <h5>Main publications</h5>
           <div className="collection">
@@ -71,7 +71,7 @@ export default () => (
     </div>
 
     <div className="row container section">
-      <div className="col m6 s12">
+      <div className="col l6 s12">
         <h5>
           <small className="grey-text text-lighten-3">2012</small><br />
           B.Sc. in Computer Science
@@ -86,7 +86,7 @@ export default () => (
           and CPLEX callable libraries. Published several scientific papers.
         </p>
       </div>
-      <div className="col m6 s12">
+      <div className="col l6 s12">
         <div className="card-panel black-text">
           <h5>Main publications</h5>
           <div className="collection">

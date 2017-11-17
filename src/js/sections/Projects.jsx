@@ -18,9 +18,9 @@ export default () => (
       Projects
     </h3>
 
-    <div className="card-container container section">
+    <div className="flex-row container section">
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -65,7 +65,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -118,7 +118,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -181,7 +181,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -217,7 +217,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -251,7 +251,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -286,7 +286,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -321,7 +321,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img
@@ -356,7 +356,7 @@ export default () => (
         </div>
       </div>
 
-      <div>
+      <div className="flex-col">
         <div className="card">
           <div className="card-image">
             <img

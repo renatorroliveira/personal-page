@@ -7,7 +7,10 @@ import SocialLinks from '@/js/SocialLinks';
 import Section from '@/js/sections/Section';
 import About from '@/js/sections/About';
 import Education from '@/js/sections/Education';
+import Personal from '@/js/sections/Personal';
 import Projects from '@/js/sections/Projects';
+import Skills from '@/js/sections/Skills';
+import Work from '@/js/sections/Work';
 
 const MenuSections = [{
   id: 'about',
@@ -25,7 +28,7 @@ const MenuSections = [{
   id: 'skills',
   label: 'Skills',
 }, {
-  id: 'persornal',
+  id: 'personal',
   label: 'Personal',
 }];
 
@@ -70,11 +73,35 @@ export default class HomePage extends React.Component {
         </Section>
 
         <Section
+          id="work"
+          className="white"
+          ref={(c) => { this.sections.work = c; }}
+        >
+          <Work />
+        </Section>
+
+        <Section
           id="education"
           className="green darken-4 white-text"
           ref={(c) => { this.sections.education = c; }}
         >
           <Education />
+        </Section>
+
+        <Section
+          id="skills"
+          className="white"
+          ref={(c) => { this.sections.skills = c; }}
+        >
+          <Skills />
+        </Section>
+
+        <Section
+          id="personal"
+          className="teal darken-4 white-text"
+          ref={(c) => { this.sections.personal = c; }}
+        >
+          <Personal />
         </Section>
 
         <Footer />

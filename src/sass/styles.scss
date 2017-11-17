@@ -105,7 +105,7 @@ img.left, img.right {
   }
 }
 
-.card-container {
+.flex-row {
   align-items: stretch;
   display: flex;
   flex-direction: row;
@@ -113,37 +113,50 @@ img.left, img.right {
   justify-content: center;
 
   & .card {
-    display: flex;
-    flex-direction: column;
-
-    & > .card-content {
+    & > .card-content, & > p {
       flex: 1;
     }
     & > .card-action {
       height: auto;
-      & > a {
-        color: #26a69a !important;
-      }
     }
   }
 
-  & > * {
+  & a, & h6 {
+    color: #26a69a !important;
+  }
+
+  & .flex-col {
+    display: flex;
+    flex-direction: column;
     width: 30%;
     margin: 30px 1.5%;
-    & > * {
+    &.large {
+      width: 42%;
+      margin: 30px 25px;
+    }
+    & > .card {
       height: 100%;
     }
   }
   @media(max-width: 1600px) {
-    & > * {
+    & .flex-col {
       width: 42%;
       margin: 30px 25px;
+
+      &.large {
+        width: 97%;
+        margin: 30px 0px;
+      }
     }
   }
   @media(max-width: 1000px) {
-    & > * {
+    & .flex-col {
       width: 97%;
       margin: 30px 0px;
+      &.large {
+        width: 97%;
+        margin: 30px 0px;
+      }
     }
   }
 
