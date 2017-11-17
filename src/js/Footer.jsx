@@ -21,6 +21,15 @@ export default () => (
         <div className="col l6 s12 center-align">
           <h5>Social</h5>
           <SocialLinks />
+          <div>
+            This page&apos;s code is available
+            on <a
+              href="https://github.com/renatorroliveira/personal-page"
+              target="_blank"
+              rel="noopener noreferrer"
+            > GitHub
+               </a>.
+          </div>
         </div>
       </div>
     </div>

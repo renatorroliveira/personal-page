@@ -7,6 +7,7 @@ import SocialLinks from '@/js/SocialLinks';
 import Section from '@/js/sections/Section';
 import About from '@/js/sections/About';
 import Education from '@/js/sections/Education';
+import Projects from '@/js/sections/Projects';
 
 const MenuSections = [{
   id: 'about',
@@ -31,14 +32,10 @@ const MenuSections = [{
 export default class HomePage extends React.Component {
   constructor() {
     super();
-    this.getContainer = this.getContainer.bind(this);
     this.navigate = this.navigate.bind(this);
     this.render = this.render.bind(this);
 
     this.sections = {};
-  }
-  getContainer() {
-    return this.mainContainer;
   }
   navigate(section) {
     const el = this.sections[section];
@@ -63,6 +60,15 @@ export default class HomePage extends React.Component {
         <Section id="about" ref={(c) => { this.sections.about = c; }}>
           <About />
         </Section>
+
+        <Section
+          id="projects"
+          className="blue-grey darken-4 white-text"
+          ref={(c) => { this.sections.projects = c; }}
+        >
+          <Projects />
+        </Section>
+
         <Section
           id="education"
           className="green darken-4 white-text"
