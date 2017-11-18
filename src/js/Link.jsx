@@ -1,3 +1,4 @@
+import $ from 'jquery';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -24,10 +25,19 @@ export default class Link extends React.Component {
 Link.defaultProps = {
   children: '',
   className: '',
+  onClick: (to) => {
+    const el = $(`#${to}`)[0];
+    if (el) {
+      const parent = el.offsetParent;
+      parent.scrollTo(0, el.offsetTop);
+    } else {
+      throw new Error('No element found to scroll to.');
+    }
+  },
 };
 Link.propTypes = {
   children: PropTypes.string,
   className: PropTypes.string,
-  onClick: PropTypes.func.isRequired,
+  onClick: PropTypes.func,
   to: PropTypes.string.isRequired,
 };

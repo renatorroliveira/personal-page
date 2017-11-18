@@ -112,22 +112,14 @@ img.left, img.right {
   flex-wrap: wrap;
   justify-content: center;
 
-  & .card {
-    & > .card-content, & > p {
-      flex: 1;
-    }
-    & > .card-action {
-      height: auto;
-    }
-  }
-
-  & a, & h6 {
+  & a, & h6, & small {
     color: #26a69a !important;
   }
 
   & .flex-col {
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     width: 30%;
     margin: 30px 1.5%;
     &.large {
@@ -135,7 +127,15 @@ img.left, img.right {
       margin: 30px 25px;
     }
     & > .card {
-      height: 100%;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      & > .card-content, & > p {
+        flex: 1;
+      }
+      & > .card-action {
+        height: auto;
+      }
     }
   }
   @media(max-width: 1600px) {

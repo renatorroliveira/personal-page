@@ -22,7 +22,7 @@ export default () => (
           <h5>Social</h5>
           <SocialLinks />
           <div>
-            This page&apos;s code is available
+            This page&apos;s source code is available
             on <a
               href="https://github.com/renatorroliveira/personal-page"
               target="_blank"
@@ -35,7 +35,7 @@ export default () => (
     </div>
     <div className="footer-copyright">
       <div className="container center-align">
-      © 2017 - Renato R. R. de Oliveira
+      © 2017 - Renato R. R. de Oliveira. Powered with React, Materialize, SASS and Webpack.
       </div>
     </div>
   </footer>

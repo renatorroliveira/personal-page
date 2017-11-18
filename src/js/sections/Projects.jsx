@@ -21,7 +21,7 @@ export default () => (
     <div className="flex-row container section">
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="uainov">
           <div className="card-image">
             <img
               alt="Uainov"
@@ -66,7 +66,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="forpdi">
           <div className="card-image">
             <img
               alt="ForPDI"
@@ -119,7 +119,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="premioideia">
           <div className="card-image">
             <img
               alt="PrêmioIdeia"
@@ -182,7 +182,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="algod">
           <div className="card-image">
             <img
               alt="AlGod"
@@ -218,7 +218,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="ilevus">
           <div className="card-image">
             <img
               alt="ilevus"
@@ -252,7 +252,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="zootec">
           <div className="card-image">
             <img
               alt="Zootec"
@@ -287,7 +287,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="vetec">
           <div className="card-image">
             <img
               alt="Vetec"
@@ -322,7 +322,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="ciuflasig">
           <div className="card-image">
             <img
               alt="CIUFLASIG"
@@ -357,7 +357,7 @@ export default () => (
       </div>
 
       <div className="flex-col">
-        <div className="card">
+        <div className="card" id="sigepic">
           <div className="card-image">
             <img
               alt="SIGEPIC"
