@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ProfileImage from '@/assets/profile2.png';
+import ProfileImage from '@/assets/profile.jpg';
 
 export default () => (
   <div>
@@ -9,7 +9,7 @@ export default () => (
       About me
     </h3>
     <div className="container section">
-      <img className="left" src={ProfileImage} alt="Myself" />
+      <img className="left" src={ProfileImage} alt="Myself" style={{ height: '500px' }} />
       <p>
         <b>Name:</b> Renato Resende Ribeiro de Oliveira<br />
         <b>Age:</b> 29 years old<br />

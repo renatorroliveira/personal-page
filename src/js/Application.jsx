@@ -9,7 +9,7 @@ import About from '@/js/sections/About';
 import Education from '@/js/sections/Education';
 import Personal from '@/js/sections/Personal';
 import Projects from '@/js/sections/Projects';
-import Skills from '@/js/sections/Skills';
+// import Skills from '@/js/sections/Skills';
 import Work from '@/js/sections/Work';
 
 const MenuSections = [{
@@ -24,9 +24,6 @@ const MenuSections = [{
 }, {
   id: 'education',
   label: 'Education',
-}, {
-  id: 'skills',
-  label: 'Skills',
 }, {
   id: 'personal',
   label: 'Personal',
@@ -55,8 +52,8 @@ export default class HomePage extends React.Component {
         <div className="top-parallax" />
         <Menu onNavigate={this.navigate} sections={MenuSections} logoId="welcome" />
         <div id="welcome" className="main-container" ref={(c) => { this.sections.welcome = c; }}>
-          <h5>Welcome! I am Renato Oliveira and my main roles are</h5>
-          <h1>full stack development &amp; tech leading</h1>
+          <h5>Welcome! I am Renato Oliveira, MSc., PMP. My main roles are</h5>
+          <h1>Senior Fullstack Developer &amp; Tech Leader</h1>
           <SocialLinks />
         </div>
 
@@ -88,6 +85,7 @@ export default class HomePage extends React.Component {
           <Education />
         </Section>
 
+        {/*
         <Section
           id="skills"
           className="white"
@@ -95,10 +93,11 @@ export default class HomePage extends React.Component {
         >
           <Skills />
         </Section>
+        */}
 
         <Section
           id="personal"
-          className="teal darken-4 white-text"
+          className="white"
           ref={(c) => { this.sections.personal = c; }}
         >
           <Personal />

@@ -14,13 +14,13 @@ export default class Section extends React.Component {
 
   render() {
     return (
-      <div
+      <section
         id={this.props.id}
         className={`block section ${this.props.className}`}
         ref={(c) => { this.el = c; }}
       >
         {this.props.children}
-      </div>
+      </section>
     );
   }
 }
