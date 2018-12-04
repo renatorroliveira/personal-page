@@ -1,5 +1,7 @@
 import React from 'react';
 
+import EvoJusScreen from '@/assets/evojus.png';
+import PNPScreen from '@/assets/pnp.png';
 import ForPDIScreen from '@/assets/forpdi.jpg';
 import AlGodScreen from '@/assets/algod.jpg';
 import UainovScreen from '@/assets/uainov.jpg';
@@ -21,39 +23,70 @@ export default () => (
     <div className="flex-row container section">
 
       <div className="flex-col">
-        <div className="card" id="uainov">
+        <div className="card" id="evojus">
           <div className="card-image">
             <img
-              alt="Uainov"
-              src={UainovScreen}
+              alt="EvoJus"
+              src={EvoJusScreen}
               className="materialboxed"
-              data-caption="Uainov, web platform for innovation management."
+              data-caption="EvoJus, productivity for lawyers."
             />
-            <span className="card-title">Uainov</span>
+            <span className="card-title">EvoJus</span>
           </div>
           <div className="card-content black-text">
-            <h6 className="project-period">2016 - present</h6>
+            <h6 className="project-period">2018 - present</h6>
             <p>
-              Multi tenant web platform for companies&apos; innovation management.
-              Developed using <b>Java EE</b> (VRaptor framework)
-              , <b>React</b> and <b>Materialize</b>. Bundled with <b>Webpack</b>
-              , <b>MySQL</b> database, <b>JMeter</b> stress tests, <b>AWS</b> platform
-              and cloud clustering with <b>Wildfly</b> application server.
+              Web application based on microservices architecture that aims to improve the
+              productivity and performance of lawyers and related professionals. It&apos;s
+              based on big data analysis, machine learning and smart search applied to legal
+              documents. Developed using <b>Java EE</b> (JAX-RS), <b>React</b> (redux)
+              , <b>Tensorflow</b> and <b>Elasticsearch</b>. Bundled with <b>Webpack</b>
+              , <b>Maven</b> and <b>Docker</b>. It uses <b>MongoDB</b> database
+              , <b>JMeter</b> stress tests, <b>AWS</b> infrastructure and automated CI/CD
+              with <b>Jenkins</b>.
               Performed all the DevOps of the infrastructure.
             </p>
           </div>
           <div className="card-action">
             <a
-              href="http://www.uainov.com/"
+              href="https://www.evojus.com.br/"
               rel="noopener noreferrer"
               target="_blank"
               className="tooltipped"
-              data-tooltip="Homepage"
+              data-tooltip="Application"
             >
-              <i className="material-icons">&#xE051;</i>
+              <i className="material-icons">&#xE5C3;</i>
             </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex-col">
+        <div className="card" id="pnp">
+          <div className="card-image">
+            <img
+              alt="Plataforma Nilo Peçanha"
+              src={PNPScreen}
+              className="materialboxed"
+              data-caption="Plataforma Nilo Peçanha."
+            />
+            <span className="card-title">Plataforma Nilo Peçanha</span>
+          </div>
+          <div className="card-content black-text">
+            <h6 className="project-period">2017 - present</h6>
+            <p>
+              Web platform to analyze, sanitize, validate and process a legacy large
+              database of brazilian&apos;s professional education environment. It aims
+              to provide reliable statistics about the professional education in Brazil.
+              Developed using <b>Java EE</b> (VRaptor) and <b>React</b> (redux). Bundled
+              with <b>Webpack</b>, <b>Maven</b> and <b>Docker</b>.
+              It uses <b>PostgreSQL</b> database and automated CI/CD with <b>Jenkins</b>.
+              Performed all the DevOps of the infrastructure.
+            </p>
+          </div>
+          <div className="card-action">
             <a
-              href="http://app.uainov.com/"
+              href="https://www.plataformanilopecanha.org/"
               rel="noopener noreferrer"
               target="_blank"
               className="tooltipped"
@@ -119,6 +152,51 @@ export default () => (
       </div>
 
       <div className="flex-col">
+        <div className="card" id="uainov">
+          <div className="card-image">
+            <img
+              alt="Uainov"
+              src={UainovScreen}
+              className="materialboxed"
+              data-caption="Uainov, web platform for innovation management."
+            />
+            <span className="card-title">Uainov</span>
+          </div>
+          <div className="card-content black-text">
+            <h6 className="project-period">2016 - 2018</h6>
+            <p>
+              Multi tenant web platform for companies&apos; innovation management.
+              Developed using <b>Java EE</b> (VRaptor framework)
+              , <b>React</b> and <b>Materialize</b>. Bundled with <b>Webpack</b>
+              , <b>MySQL</b> database, <b>JMeter</b> stress tests, <b>AWS</b> platform
+              and cloud clustering with <b>Wildfly</b> application server.
+              Performed all the DevOps of the infrastructure.
+            </p>
+          </div>
+          <div className="card-action">
+            <a
+              href="http://www.uainov.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="tooltipped"
+              data-tooltip="Homepage"
+            >
+              <i className="material-icons">&#xE051;</i>
+            </a>
+            <a
+              href="http://app.uainov.com/"
+              rel="noopener noreferrer"
+              target="_blank"
+              className="tooltipped"
+              data-tooltip="Application"
+            >
+              <i className="material-icons">&#xE5C3;</i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div className="flex-col">
         <div className="card" id="premioideia">
           <div className="card-image">
             <img
@@ -130,7 +208,7 @@ export default () => (
             <span className="card-title">PrêmioIdeia</span>
           </div>
           <div className="card-content black-text">
-            <h6 className="project-period">2013 - present</h6>
+            <h6 className="project-period">2013 - 2018</h6>
             <p>
               Multi tenant web platform for companies&apos; innovation management
               and crowd sourcing processes. Developed using <b>Java EE</b> (VRaptor
@@ -193,7 +271,7 @@ export default () => (
             <span className="card-title">AlGod</span>
           </div>
           <div className="card-content black-text">
-            <h6 className="project-period">2012 - present</h6>
+            <h6 className="project-period">2012 - 2018</h6>
             <p>
               Open source web platform for programming teaching and learning.
               It features automatic code evaluation and online tests monitoring.
@@ -229,7 +307,7 @@ export default () => (
             <span className="card-title">ilevus</span>
           </div>
           <div className="card-content black-text">
-            <h6 className="project-period">2016 - 2017</h6>
+            <h6 className="project-period">2015 - 2017</h6>
             <p>
               Web platform to support coaching processes, with tools, customizable
               processes and social network like features.
@@ -263,7 +341,7 @@ export default () => (
             <span className="card-title">Zootec</span>
           </div>
           <div className="card-content black-text">
-            <h6 className="project-period">2017 - present</h6>
+            <h6 className="project-period">2017 - 2018</h6>
             <p>
               Web platform to manage the zootechny department of the Instituto Federal
               Catarinense (IFC), an innovation and technology education institute in Brazil.
@@ -295,10 +373,10 @@ export default () => (
               className="materialboxed"
               data-caption="Vetec, web platform to manage the veterinary clinic."
             />
-            <span className="card-title">ilevus</span>
+            <span className="card-title">Vetec</span>
           </div>
           <div className="card-content black-text">
-            <h6 className="project-period">2017 - present</h6>
+            <h6 className="project-period">2017 - 2018</h6>
             <p>
               Web platform to manage the veterinary clinic of the Instituto Federal
               Catarinense (IFC), an innovation and technology education institute in Brazil.

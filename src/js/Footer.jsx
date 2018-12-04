@@ -9,13 +9,13 @@ export default () => (
         <div className="col l6 s12">
           <h5>Contact</h5>
           <p>
-            <i className="material-icons">&#xE0C8;</i>Concórdia, SC - Brazil - 89710-153
+            <i className="material-icons">&#xE0C8;</i>Brasília, DF - Brazil - 70675-406
           </p>
           <p>
-            <i className="material-icons">&#xE0E1;</i> renatorro[a]comp.ufla.br
+            <i className="material-icons">&#xE0E1;</i> renatorro <i>at</i> comp.ufla.br
           </p>
           <p>
-            <i className="material-icons">&#xE324;</i> +55 49 99150 9631
+            <i className="material-icons">&#xE324;</i> Skype: renatorro.comp.ufla.br
           </p>
         </div>
         <div className="col l6 s12 center-align">
@@ -35,7 +35,7 @@ export default () => (
     </div>
     <div className="footer-copyright">
       <div className="container center-align">
-      © 2017 - Renato R. R. de Oliveira. Powered with React, Materialize, SASS and Webpack.
+      © 2018 - Renato R. R. de Oliveira. Powered with React, Materialize, SASS and Webpack.
       </div>
     </div>
   </footer>

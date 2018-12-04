@@ -13,7 +13,7 @@ export default () => (
     </a>
     <a
       className="social-link tooltipped"
-      href="https://www.linkedin.com/in/renato-resende-ribeiro-de-oliveira-63247046/"
+      href="https://www.linkedin.com/in/renatorro"
       target="_blank"
       rel="noopener noreferrer"
       data-tooltip="Linkedin Profile"

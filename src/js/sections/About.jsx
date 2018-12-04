@@ -12,19 +12,19 @@ export default () => (
       <img className="left" src={ProfileImage} alt="Myself" />
       <p>
         <b>Name:</b> Renato Resende Ribeiro de Oliveira<br />
-        <b>Age:</b> 28 years old<br />
-        <b>Experience as a developer:</b> 9 years<br />
-        <b>Current location:</b> Concórdia/SC, Brazil<br />
+        <b>Age:</b> 29 years old<br />
+        <b>Experience as a developer:</b> 10 years<br />
+        <b>Current location:</b> Brasília/DF, Brazil<br />
       </p>
 
 
       <p className="flow-text">
         <b>Summary:</b><br />
         Hello there, I am Renato. I am a passionated software developer, architect
-        and entusiastic. I have 9 years of development experience, including desktop, web
-        and scientific programming experiences. I have knowledge of many different languages,
-        patterns and I am very addicted to learning. I love experimenting new technologies
-        and innovative approaches.
+        and entusiastic team leader. I have 10 years of development experience, including
+        desktop, web, mobile and scientific programming experiences. I have knowledge of
+        many different programming languages, patterns and I am very addicted to learning.
+        I love experimenting new technologies and innovative approaches.
       </p>
       <p className="flow-text">
         Regarding my personality, I am a very pro-active guy that loves development.

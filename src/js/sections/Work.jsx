@@ -13,24 +13,51 @@ export default () => (
 
       <div className="flex-col large">
         <h5>
-          <small>Aug/2016 - present</small><br />
-          Professor, <a href="http://concordia.ifc.edu.br/">Instituto Federal Catarinense</a>
+          <small>Apr/2018 - present</small><br />
+          CTO and Co-founder, <a href="https://www.evojus.com.br/">EvoJus</a>
+        </h5>
+        <h6>
+          Brasília, DF, Brazil
+        </h6>
+        <p className="flow-text">
+          I am currently working as the CTO of my own startup. The business is based
+          on applying artificial intelligence to the legal/law area, focusing on
+          improving the productivity and performance of lawyers and related professionals.
+        </p>
+        <p className="flow-text">
+          I lead a team of 9 developers at many levels of maturity, coordinating the work
+          among three differente software development projects.
+        </p>
+        <p className="flow-text">
+          The main software is based on a microservices architecture and involves many
+          technologies along it&apos;s stack. This includes: <b>Java 8</b>, <b>Python</b>
+          , <b>Javascript (ES6)</b>, <b>JAX-RS</b>, <b>Hibernate</b>, <b>React</b>
+          , <b>Webpack</b>, <b>Tensorflow</b>, <b>Elasticsearch</b>, <b>MongoDB</b>
+          , <b>MySQL</b>, <b>PostgreSQL</b>, <b>AWS</b>, <b>Docker</b>, <b>Jenkins</b>.
+        </p>
+      </div>
+
+      <div className="flex-col large">
+        <h5>
+          <small>Aug/2016 - Mar/2018</small><br />
+          Instructor, <a href="http://concordia.ifc.edu.br/">Instituto Federal Catarinense</a>
         </h5>
         <h6>
           Concórdia, SC, Brazil
         </h6>
         <p className="flow-text">
-          I teach and train students on full stack web and mobile development in technology
-          courses, preparing them to be developers ready to work on the IT market.
+          I teached and trained new developers on full stack web and mobile development
+          in technology courses, preparing them to be developers ready to work on the IT
+          market.
         </p>
         <p className="flow-text">
-          I lead research and technology projects on web platforms development such
+          I led research and technology projects on web platforms development such
           as <LinkWrapper to="algod">Algorithm God (AlGod)</LinkWrapper>
           , <LinkWrapper to="zootec">Zootec</LinkWrapper> and&nbsp;
           <LinkWrapper to="vetec">Vetec</LinkWrapper>.
         </p>
         <p className="flow-text">
-          I use many technologies in this position, like <b>Java</b>, <b>Python</b>
+          I used many technologies in this position, like <b>Java</b>, <b>Python</b>
           , <b>PHP</b>, <b>Javascript (ES6)</b>, <b>React</b>, <b>Vue.js</b>, <b>Webpack</b>
           , <b>NodeJS</b>, <b>MySQL</b>, <b>Cordova</b> and <b>Android SDK</b>.
         </p>
@@ -38,8 +65,8 @@ export default () => (
 
       <div className="flex-col large">
         <h5>
-          <small>Aug/2013 - Jul/2016</small><br />
-          CTO, <a href="http://www.progolden.com.br/">ProGolden Technology Solutions</a>
+          <small>Aug/2013 - Mar/2018</small><br />
+          CTO and Co-founder, <a href="http://www.progolden.com.br/">ProGolden Technology Solutions</a>
         </h5>
         <h6>
           Lavras, MG, Brazil
@@ -69,7 +96,7 @@ export default () => (
 
       <div className="flex-col large">
         <h5>
-          <small>Mar/2012 - present</small><br />
+          <small>Mar/2012 - Jul/2016</small><br />
           Freelancer Developer
         </h5>
         <h6>
